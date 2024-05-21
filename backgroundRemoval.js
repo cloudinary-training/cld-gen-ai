@@ -6,5 +6,13 @@ cloudinary.config({ secure: "true" });
 // the primary foreground object(s) in an image and accurately remove the background in a matter of seconds.
 // Reference: https://cloudinary.com/documentation/cloudinary_ai_background_removal_addon
 
-cloudinary.image("model", {effect: "background_removal"})
-  .then(result=>console.log(result));
+// cloudinary.image("model", {effect: "background_removal"})
+//   .then(result=>console.log(result));
+
+// cloudinary.api
+//   .update("model", { effect: "background_removal" })
+
+
+cloudinary.uploader.upload("assets/model.jpg", { effect: "background_removal" })
+.then(result=>console.log(result));
+

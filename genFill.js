@@ -9,7 +9,7 @@ cloudinary.config({ secure: "true" });
 // Reference: https://cloudinary.com/documentation/ai_in_action#generative_fill
 
 console.log(
-  cloudinary.image("sample", {
+  cloudinary.image("model", {
     aspect_ratio: "1:1",
     background: "gen_fill",
     width: 600,
