@@ -13,3 +13,10 @@ console.log(
       effect: "gen_restore",
     })
   );
+
+
+  console.log(
+    cloudinary.image("model", {
+      effect: "gen_restore",
+    })
+  );

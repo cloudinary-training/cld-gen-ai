@@ -13,6 +13,12 @@ cloudinary.config({ secure: "true" });
 //   .update("model", { effect: "background_removal" })
 
 
-cloudinary.uploader.upload("assets/model.jpg", { effect: "background_removal" })
-.then(result=>console.log(result));
+// cloudinary.uploader.upload("assets/model.jpg", { effect: "background_removal" })
+// .then(result=>console.log(result));
 
+
+console.log(
+    cloudinary.image("model", {
+      effect: "background_removal",
+    })
+  );

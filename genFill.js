@@ -10,7 +10,7 @@ cloudinary.config({ secure: "true" });
 
 console.log(
   cloudinary.image("model", {
-    aspect_ratio: "1:1",
+    aspect_ratio: "3:4",
     background: "gen_fill",
     width: 600,
     crop: "pad",

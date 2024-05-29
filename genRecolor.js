@@ -7,7 +7,7 @@ cloudinary.config({ secure: "true" });
 
 // Reference: https://cloudinary.com/documentation/ai_in_action#generative_recolor
 console.log(
-    cloudinary.image("sample", {
-      effect: "gen_recolor:prompt_flowers;to-color_EEEEEE",
+    cloudinary.image("model", {
+      effect: "gen_recolor:prompt_tee-shirt;to-color_32CD32",
     })
   );

@@ -6,9 +6,9 @@ cloudinary.config({ secure: "true" });
 
 // Reference: https://cloudinary.com/documentation/cloudinary_ai_content_analysis_addon#ai_based_image_captioning
 
-cloudinary.uploader.upload("assets/model.jpg", { detection: "captioning" })
-  .then(result=>console.log(result));
+// cloudinary.uploader.upload("assets/model.jpg", { detection: "captioning" })
+//   .then(result=>console.log(result));
 
-// cloudinary.api
-//   .update("n6epwbuafu3cj3vqqqa3", { detection: "captioning" })
-//   .then((result) => console.log(result.info.detection.captioning));
+cloudinary.api
+  .update("quickstart_butterfly", { detection: "captioning" })
+  .then((result) => console.log(result.info.detection.captioning));
