@@ -14,7 +14,6 @@ console.log(
     cloudinary.image("model", {
       aspect_ratio: "1:1",
       gravity: "auto",
-      height: 400,
-      crop: "fill"
+      crop: "auto"
     })
   );
