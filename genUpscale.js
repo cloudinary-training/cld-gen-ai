@@ -9,7 +9,7 @@ cloudinary.config({ secure: "true" });
 // Note: Images must not be larger than 0.25 megapixels to work with e_upscale
 
 console.log(
-    cloudinary.image("quickstart_butterfly", {
+    cloudinary.image("butterfly", {
       effect: "upscale",
     })
   );

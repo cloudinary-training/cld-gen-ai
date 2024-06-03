@@ -19,6 +19,6 @@ cloudinary.config({ secure: "true" });
 
 console.log(
     cloudinary.image("model", {
-      effect: "background_removal",
+      effect: "background_removal"
     })
   );

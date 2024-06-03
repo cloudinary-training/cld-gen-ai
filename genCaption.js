@@ -10,5 +10,5 @@ cloudinary.config({ secure: "true" });
 //   .then(result=>console.log(result));
 
 cloudinary.api
-  .update("quickstart_butterfly", { detection: "captioning" })
+  .update("butterfly", { detection: "captioning" })
   .then((result) => console.log(result.info.detection.captioning));

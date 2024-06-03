@@ -19,6 +19,6 @@ cloudinary.config({ secure: "true" });
 
 console.log(
     cloudinary.image("model", {
-      effect: "gen_remove:prompt_logo",
+      effect: "gen_remove:prompt_logo"
     })
   );

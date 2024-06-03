@@ -9,14 +9,7 @@ cloudinary.config({ secure: "true" });
 // Reference: https://cloudinary.com/documentation/ai_in_action#generative_restore
 
 console.log(
-    cloudinary.image("sample", {
-      effect: "gen_restore",
-    })
-  );
-
-
-  console.log(
-    cloudinary.image("model", {
+    cloudinary.image("butterfly", {
       effect: "gen_restore",
     })
   );
