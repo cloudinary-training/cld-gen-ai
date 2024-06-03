@@ -9,7 +9,7 @@ cloudinary.config({ secure: "true" });
 // Reference: https://cloudinary.com/documentation/ai_in_action#generative_replace
 
 console.log(
-    cloudinary.image("butterfly", {
-      effect: "gen_replace:from_butterfly;to_ladybug",
+    cloudinary.image("model", {
+      effect: "gen_replace:from_pants;to_flannel_pajamas",
     })
   );
