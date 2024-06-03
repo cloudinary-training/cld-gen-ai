@@ -10,13 +10,6 @@ cloudinary.config({ secure: "true" });
 
 // Reference: https://cloudinary.com/documentation/ai_in_action#generative_remove
 
-// console.log(
-//     cloudinary.image("sample", {
-//       effect: "gen_remove:prompt_bee",
-//     })
-//   );
-
-
 console.log(
     cloudinary.image("model", {
       effect: "gen_remove:prompt_logo"

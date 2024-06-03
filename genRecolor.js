@@ -6,6 +6,7 @@ cloudinary.config({ secure: "true" });
 // This feature simplifies creating color variants, especially beneficial for e-commerce products, by allowing color changes at scale via API​.
 
 // Reference: https://cloudinary.com/documentation/ai_in_action#generative_recolor
+
 console.log(
     cloudinary.image("model", {
       effect: "gen_recolor:prompt_tee-shirt;to-color_32CD32",
