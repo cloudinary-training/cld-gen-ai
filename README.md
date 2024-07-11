@@ -63,7 +63,7 @@ CLOUDINARY_URL=cloudinary://YOUR_API_KEY:YOUR_API_SECRET@YOUR_CLOUD_NAME
 
 Doing this step properly is essential, as it will let Cloudinary know who you are and provide access to your cloud.
 
-Alternatively, you can simply export your CLOUDINARY_URL, and skip the .env file step completely:
+Alternatively, you can simply export your CLOUDINARY_URL in your command line/terminal, and skip pasting your credential into a .env file altogether:
 ```console
 export CLOUDINARY_URL=cloudinary://YOUR_API_KEY:YOUR_API_SECRET@YOUR_CLOUD_NAME
 ```
