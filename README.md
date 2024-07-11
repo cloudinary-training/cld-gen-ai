@@ -63,6 +63,12 @@ CLOUDINARY_URL=cloudinary://YOUR_API_KEY:YOUR_API_SECRET@YOUR_CLOUD_NAME
 
 Doing this step properly is essential, as it will let Cloudinary know who you are and provide access to your cloud.
 
+Alternatively, you can simply export your CLOUDINARY_URL, and skip the .env file step completely:
+```console
+export CLOUDINARY_URL=cloudinary://YOUR_API_KEY:YOUR_API_SECRET@YOUR_CLOUD_NAME
+```
+
+
 ### Run Code: Install Node Libraries
 
 
@@ -72,6 +78,8 @@ npm i
 (You will be using the `cloudinary` and the `dotenv` libraries.)
 
 ### Run Code: Test Credentials
+
+
 
 ```console
 node testCredentials.js
