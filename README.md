@@ -35,11 +35,11 @@ $ npm --version
 
 ### Download Repository:
 
-[Introduction to Video Transformations and Optimizations with Cloudinary](https://github.com/cloudinary-training/cld-gen-ai)
+[Introduction to Cloudinary's Generative AI Transformations](https://github.com/cloudinary-training/cld-gen-ai)
 
 - Run code from root directory, like so:
 ```bash
-node <file_name.js>
+node <file_name.js >
 ```
 
 ### Account Setup and Credentials:
