@@ -31,7 +31,6 @@ $ npm --version
 - [Visual Studio Code](https://code.visualstudio.com/download) - VSCode is our preferred IDE
 - [WebStorm](https://www.jetbrains.com/webstorm/) 
 - [Sublime](https://www.sublimetext.com/) 
-- [Atom](https://atom.io/) 
 - [iTerm](https://iterm2.com/) 
 
 ### Download Repository:
