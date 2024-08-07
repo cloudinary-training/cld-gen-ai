@@ -47,26 +47,28 @@ node <file_name.js>
 
 1. If you don't have one already, create a free Cloudinary account at: https://www.cloudinary.com/signup.
 
-2. Navigate to the Dashboard. Copy the `CLOUDINARY_URL` into your clipboard (see yellow arrow).
+2. Navigate to your Product Environment Settings. Then click API Keys. Copy the `CLOUDINARY_URL` into your clipboard (see yellow arrow pointing to a clipboard).
 
-![Dashboard](./assets/environment_variable.png)
+![Dashboard](./assets/cld_credentials.png)
 
 3. Create a `.env` file in the root of the project. Paste the CLOUDINARY_URL environment variable into your `.env` file.
 
-There should be one line of code in your .env file, which should look like this:
+4. After you've copy and pasted the provided format, substitute your actual values for the placeholders.
+
+- Example of a copied CLOUDINARY_URL:
+```CLOUDINARY_URL=cloudinary://<your_api_key>:<your_api_secret>@jen-brissman```
+
+- Your own cloud name will be automatically copied for you, so just replace <your_api_key> with your API Key and <your_api_secret> with your API Secret.
+
+- There should be one line of code in your .env file, which should look like this:
 
 ```console
 CLOUDINARY_URL=cloudinary://YOUR_API_KEY:YOUR_API_SECRET@YOUR_CLOUD_NAME
 ```
-- Key: CLOUDINARY_URL
-- Value: cloudinary://API_KEY:API_SECRET@CLOUD_NAME
 
-Doing this step properly is essential, as it will let Cloudinary know who you are and provide access to your cloud.
+- Doing this step properly is essential, as it will let Cloudinary know who you are and provide access to your cloud.
 
-Alternatively, you can simply export your CLOUDINARY_URL in your command line/terminal, and skip pasting your credential into a .env file altogether:
-```console
-export CLOUDINARY_URL=cloudinary://YOUR_API_KEY:YOUR_API_SECRET@YOUR_CLOUD_NAME
-```
+- Note: Keep your API Secret private. Treat it like a password. You can always regenerate a new API Key if you'd like. 
 
 
 ### Run Code: Install Node Libraries
