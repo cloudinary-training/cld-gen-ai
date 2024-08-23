@@ -10,6 +10,6 @@ cloudinary.config({ secure: "true" });
 
 console.log(
     cloudinary.image("model", {
-      effect: "gen_replace:from_pants;to_flannel_pajamas",
+      effect: "gen_replace:from_pants;to_flannel_pants",
     })
   );
