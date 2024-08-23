@@ -4,7 +4,8 @@ cloudinary.config({ secure: "true" });
 
 // Uses AI-based prediction to add fine detail while upscaling small images.
 
-// Note: Images must not be larger than 0.25 megapixels to work with e_upscale
+// Note: To use the upscale effect, the input image must be
+// smaller than 4.2 megapixels (the equivalent of 2048 x 2048 pixels).
 
 // Reference: https://cloudinary.com/documentation/effects_and_artistic_enhancements#upscale
 
